@@ -6,7 +6,7 @@
   <div class="panel-body">
     <% @messages.each do |message| %>
       <span class="label label-info"><%= message.name %></span>
-      <%= message.body %>
+      <textarea class="form-control" rows="3"><%= message.body %></textarea>
       <br>
     <% end %>
   </div>
