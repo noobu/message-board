@@ -3,7 +3,9 @@
 one:
   name: MyString
   body: MyString
+  amount: MyString
 
 two:
   name: MyString
   body: MyString
+  amount: MyString
